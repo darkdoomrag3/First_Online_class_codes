@@ -27,3 +27,6 @@ class Test_SignUp(BaseTest):
         log.logger.info("Test Do sign in started")
         regPage = RegistrationPage(self.driver)
         regPage.fillForm(username, password)
+
+
+

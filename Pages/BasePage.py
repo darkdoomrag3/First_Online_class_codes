@@ -1,3 +1,4 @@
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from Utilities import configReader
@@ -46,3 +47,16 @@ class BasePage:
 
         select = Select(dropdown)
         select.select_by_visible_text(value)
+    def moveTo(self,locator):
+
+
+        if str(locator).endswith("_XPATH"):
+            element = self.driver.find_element(By.XPATH, configReader.readConfig("locators", locator))
+        elif str(locator).endswith("_CSS"):
+            element = self.driver.find_element(By.CSS_SELECTOR, configReader.readConfig("locators", locator))
+        elif str(locator).endswith("_ID"):
+            element = self.driver.find_element(By.ID, configReader.readConfig("locators", locator))
+        elif str(locator).endswith("_TEXT"):
+            self.driver.find_element(By.PARTIAL_LINK_TEXT, configReader.readConfig("locators", locator)).click()
+        action = ActionChains(self.driver)
+        action.move_to_element(element).perform()

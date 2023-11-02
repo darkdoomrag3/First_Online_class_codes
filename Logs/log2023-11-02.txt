@@ -1,0 +1,6 @@
+2023-11-02 20:15:52,990 - test_Signup.py:[27] - [INFO] - Test Do sign in started
+2023-11-02 20:17:49,110 - test_Signup.py:[27] - [INFO] - Test Do sign in started
+2023-11-02 20:21:52,406 - test_Signup.py:[27] - [INFO] - Test Do sign in started
+2023-11-02 20:22:15,425 - test_Signup.py:[27] - [INFO] - Test Do sign in started
+2023-11-02 20:29:19,829 - test_Signup.py:[27] - [INFO] - Test Do sign in started
+2023-11-02 20:29:32,530 - test_Signup.py:[27] - [INFO] - Test Do sign in started

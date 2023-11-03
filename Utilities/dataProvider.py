@@ -1,10 +1,10 @@
 import openpyxl
 
 
-def get_data():
+def get_data(sheetName):
     workbook = openpyxl.load_workbook("D:\PageObjectModelSelenium\Excels\Test data Selenium.xlsx")
 
-    sheet = workbook["LoginTest"]
+    sheet = workbook[sheetName]
     totalrows = sheet.max_row
     totalcols = sheet.max_column
     mainList = []

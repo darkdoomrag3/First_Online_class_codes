@@ -37,7 +37,7 @@ def log_on_failure(request,get_browser):
 
 
 
-@pytest.fixture(params=["firefox", "chrome"], scope="class")
+@pytest.fixture(params=["firefox", "chrome"], scope="function")
 def get_browser(request):
 
 

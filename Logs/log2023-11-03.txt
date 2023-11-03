@@ -1,0 +1,14 @@
+2023-11-03 17:04:45,681 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 17:05:08,422 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 22:53:11,527 - test_Carwale.py:[21] - [INFO] - *****Inside New Car Test*****
+2023-11-03 22:53:27,275 - test_Carwale.py:[21] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:12:36,178 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:12:41,889 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:12:58,483 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:13:08,738 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:14:03,831 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:14:26,850 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:17:40,829 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:17:52,264 - test_Carwale.py:[19] - [INFO] - *****Inside New Car Test*****
+2023-11-03 23:59:17,366 - test_Carwale.py:[21] - [INFO] - ******Inside New Car Test*********
+2023-11-03 23:59:58,509 - test_Carwale.py:[21] - [INFO] - ******Inside New Car Test*********

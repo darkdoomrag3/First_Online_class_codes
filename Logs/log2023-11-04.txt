@@ -1,0 +1,2 @@
+2023-11-04 00:01:36,405 - test_Carwale.py:[21] - [INFO] - ******Inside New Car Test*********
+2023-11-04 00:01:57,508 - test_Carwale.py:[21] - [INFO] - ******Inside New Car Test*********

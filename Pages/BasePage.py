@@ -47,8 +47,8 @@ class BasePage:
 
         select = Select(dropdown)
         select.select_by_visible_text(value)
-    def moveTo(self,locator):
 
+    def moveTo(self, locator):
 
         if str(locator).endswith("_XPATH"):
             element = self.driver.find_element(By.XPATH, configReader.readConfig("locators", locator))

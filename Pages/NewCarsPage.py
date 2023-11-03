@@ -1,4 +1,3 @@
-
 from Pages.BasePage import BasePage
 from Utilities import configReader
 
@@ -9,20 +8,21 @@ class NewCarsPage(BasePage):
         super().__init__(driver)
 
     def selectHyundai(self):
-        self.click("Hyundai_XPATH")
+        self.click("hyundai_XPATH")
 
-        pass
+
+
     def selectToyota(self):
-        self.click("Hyundai_XPATH")
+        self.click("toyota_XPATH")
 
-        pass
 
-def selectBMW(self):
-    self.click("Hyundai_XPATH")
 
-    pass
+    def selectBMW(self):
+        self.click("Bmw_XPATH")
 
-def selectHonda(self):
-    self.click("Hyundai_XPATH")
 
-    pass
+
+    def selectLandRover(self):
+        self.click("LandRover_XPATH")
+
+
